@@ -7,7 +7,7 @@ ATTRIBUTION = "Data provided by rointeconnect.com"
 # Rointe's firebase app values.
 FIREBASE_APP_KEY = "AIzaSyBi1DFJlBr9Cezf2BwfaT-PRPYmi3X3pdA"
 FIREBASE_DEFAULT_URL = "https://elife-prod.firebaseio.com"
-FIREBASE_INSTALLATIONS_PATH = "/installations2.json"
+FIREBASE_INSTALLATIONS_PATH = "/installations3.json"
 FIREBASE_DEVICES_PATH_BY_ID = "/devices/{}.json"
 FIREBASE_DEVICE_DATA_PATH_BY_ID = "/devices/{}/data.json"
 
@@ -30,7 +30,7 @@ ROINTE_HA_DEVICES = "rointe_ha_devices"
 ROINTE_HA_SIGNAL_UPDATE_ENTITY = "rointe_entry_update"
 ROINTE_API_REFRESH_SECONDS = 60
 SCAN_INTERVAL_SECONDS = 30
-ROINTE_SUPPORTED_DEVICES = ["radiator", "towel", "therm"]
+ROINTE_SUPPORTED_DEVICES = ["radiator", "radiatorb", "towel", "therm"]
 
 CMD_SET_TEMP = "cmd_set_temp"
 CMD_SET_PRESET = "cmd_set_preset"
